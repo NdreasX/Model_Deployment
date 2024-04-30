@@ -1,3 +1,7 @@
+import subprocess
+subprocess.run(['pip', 'install', 'scikit-learn'])
+subprocess.run(['pip', 'install', 'xgboost'])
+
 import pickle
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
